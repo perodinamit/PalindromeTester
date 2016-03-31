@@ -19,11 +19,11 @@ namespace PalindromeTester
 
         public class Tester
         {
-            public bool Check(string input)
+            public bool Check(string forward)
             {
-                input = input.Replace(" ", "");
-                var reversed = new string(input.Reverse().ToArray());
-                return reversed.Equals(input);
+                forward = forward.Replace(" ", "");
+                var backward = new string(forward.Reverse().ToArray());
+                return backward.Equals(forward);
             }
         }
 
