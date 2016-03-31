@@ -13,7 +13,7 @@ namespace PalindromeTester
             string unos = Console.ReadLine();
             Tester t1 = new Tester();
             //t1.Check(unos);
-
+             
             Console.WriteLine(t1.Check(unos));
         }
 
